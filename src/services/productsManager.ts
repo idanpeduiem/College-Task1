@@ -18,6 +18,6 @@ export const products: ProductType[] = [
     {id: 6, title: "snak 6", description: "I am the best snak1", price: 11, image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSugtsPoUlvIILq42TW7pFofUyh42tlvx9YjNhPNi4_9uOJedweFXKYKaP3e0BF6hkttIg&usqp=CAU" },
     {id: 7, title: "snak 7", description: "I am the best snak1", price: 12, image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4dIRv3OtdOGHxD5n-3kAHKU8JFzPXnBPeZw&usqp=CAU" },
     {id: 8, title: "snak 8", description: "I am the best snak1", price: 3, image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fSRfac7gUt0Wlze0R6rwY-2GHhD6Sm3EIg&usqp=CAU" },
-    {id: 9, title: "snak 9", description: "I am the best snak1", price: 9, image:"" },
-    {id: 10, title: "snak 10", description: "I am snak namber one", price: 8, image:"" },
+    {id: 9, title: "snak 9", description: "I am the best snak1", price: 9, image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhjBeIvAaYcYesRQQgfAM7rxsz0hzpkhCDlw&usqp=CAU" },
+    {id: 10, title: "snak 10", description: "I am snak namber one", price: 8, image:"https://cdnprod.mafretailproxy.com/sys-master-root/h34/h8a/14503198097438/706840_main.jpg_480Wx480H" },
 ]
