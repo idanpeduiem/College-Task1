@@ -30,6 +30,8 @@ module.exports = (env, argv) => {
       extensions: [".tsx", ".ts", ".js"],
       alias: {
         "@components": path.resolve(__dirname, "src/components/"),
+        "@services": path.resolve(__dirname, "src/services/"),
+        "@assets": path.resolve(__dirname, "src/assets/"),
       },
     },
     devtool: "inline-source-map",
