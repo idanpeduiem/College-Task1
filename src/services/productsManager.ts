@@ -7,7 +7,6 @@ interface ProductType {
     price: number;
     image: any;
 }
-readdir("/src/assets/images", (err,files) => {});
 
 export const products: ProductType[] = [
     {id: 1, title: "snak 1", description: "I am the best snak1", price: 10, image:"https://www.snickysnaks.com/wp-content/uploads/2021/08/Poppers-Snicky-Home-Page-Image-2.png" },
