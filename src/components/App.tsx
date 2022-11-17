@@ -1,15 +1,33 @@
 import React from "react";
-import { Paper, Typography } from "@mui/material";
 import { Item } from "./Item";
+import { products, ProductType } from "../services/productsManager";
 
-export const App = () => {
+const App = () => {
   return (
     <>
-      <Item
-        price={1}
-        imagePrimary="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        productName={"aviv"}
-      ></Item>
+      {products.map(
+        ({
+          id,
+          price,
+          productName,
+          desc,
+          imagePrimary,
+          imageSecondary,
+          storeName,
+        }: ProductType) => (
+          <Item
+            key={id}
+            price={price}
+            imageSecondary={imageSecondary}
+            imagePrimary={imagePrimary}
+            productName={productName}
+            storeName={storeName}
+            desc={desc}
+          />
+        )
+      )}
     </>
   );
 };
+
+export default App;
