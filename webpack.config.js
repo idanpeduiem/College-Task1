@@ -2,7 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = (env, argv) => {
-  const mode = process.env.NODE_ENV === "production" ? "production" : "development";
+  const mode =
+    process.env.NODE_ENV === "production" ? "production" : "development";
 
   return {
     entry: "./src/index.tsx",
@@ -31,7 +32,6 @@ module.exports = (env, argv) => {
       alias: {
         "@components": path.resolve(__dirname, "src/components/"),
         "@services": path.resolve(__dirname, "src/services/"),
-        "@assets": path.resolve(__dirname, "src/assets/"),
       },
     },
     devtool: "inline-source-map",
