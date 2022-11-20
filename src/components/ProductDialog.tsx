@@ -34,12 +34,16 @@ export const ProductDialog = ({
               {productName.charAt(0).toUpperCase()}
             </Avatar>
           }
-
           title={productName}
           subheader={`Price: ${price}₪`}
         />
         <CardContent>
-          <Typography variant="body2" color='text.secondary'>{desc}</Typography>
+          <Typography>
+            Description:
+            <Typography variant="body2" color="text.secondary">
+              {desc}
+            </Typography>
+          </Typography>
         </CardContent>
         <Grid container>
           <Grid item xs>
@@ -60,7 +64,12 @@ export const ProductDialog = ({
           </Grid>
         </Grid>
         <CardContent>
-          <Typography>Store name: {storeName}</Typography>
+          <Typography>
+            Store name:
+            <Typography variant="body2" color="text.secondary">
+              {storeName}
+            </Typography>
+          </Typography>
         </CardContent>
       </Card>
     </Dialog>
